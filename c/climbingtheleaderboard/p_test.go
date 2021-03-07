@@ -1,4 +1,4 @@
-package pclimbingtheleaderboard
+package climbingtheleaderboard
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package pmagicsquareforming
+package magicsquareforming
 
 import (
 	"fmt"

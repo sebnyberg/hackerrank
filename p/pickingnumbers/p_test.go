@@ -1,4 +1,4 @@
-package ppickingnumbers
+package pickingnumbers
 
 import (
 	"fmt"

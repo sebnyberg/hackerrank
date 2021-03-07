@@ -1,4 +1,4 @@
-package pbetweentwosets
+package betweentwosets
 
 import (
 	"fmt"
