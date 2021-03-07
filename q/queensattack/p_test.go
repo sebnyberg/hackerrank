@@ -22,7 +22,6 @@ func Test_queensAttack(t *testing.T) {
 	}
 }
 
-// Complete the queensAttack function below.
 func queensAttack(n int32, k int32, r_q int32, c_q int32, obstacles [][]int32) (res int32) {
 	obstaclesMap := make(map[[2]int32]bool)
 	for _, obstacle := range obstacles {
