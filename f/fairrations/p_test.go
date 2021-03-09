@@ -31,7 +31,7 @@ func Test_fairRations(t *testing.T) {
 			n, _ := strconv.Atoi(nstr)
 			ns[i] = int32(n)
 		}
-		require.Equal(t, -1, fairRations(ns))
+		require.EqualValues(t, -1, fairRations(ns))
 	})
 }
 
