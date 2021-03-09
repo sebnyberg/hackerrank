@@ -68,7 +68,7 @@ func twoPluses(grid []string) int32 {
 
 	// At this point we know that a solution must include at least one plus
 	// of size 4 or greater, this eliminates a lot of branches
-	maxSize := 2
+	maxSize := 1
 	for _, p := range findPluses(byteGrid, 2) {
 		// Mark the plus
 		byteGrid[p.i][p.j] = 'F'
