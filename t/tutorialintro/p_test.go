@@ -13,9 +13,8 @@ func Test_introTutorial(t *testing.T) {
 		arr  []int32
 		want int32
 	}{
-		// {4, []int32{1, 4, 5, 7, 9, 12}, 1},
-		// {9, []int32{1, 4, 5, 7, 9, 12}, 4},
-		{10, []int32{1, 4, 5, 7, 9, 12}, 4},
+		{4, []int32{1, 4, 5, 7, 9, 12}, 1},
+		{9, []int32{1, 4, 5, 7, 9, 12}, 4},
 	} {
 		t.Run(fmt.Sprintf("%v/%+v", tc.V, tc.arr), func(t *testing.T) {
 			require.Equal(t, tc.want, introTutorial(tc.V, tc.arr))

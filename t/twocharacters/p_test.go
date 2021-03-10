@@ -14,7 +14,7 @@ func Test_alternate(t *testing.T) {
 		want int32
 	}{
 		{"beabeefeab", 5},
-		{"asvkugfiugsalddlasguifgukvsa", 5},
+		{"asvkugfiugsalddlasguifgukvsa", 0},
 	} {
 		t.Run(fmt.Sprintf("%+v", tc.s), func(t *testing.T) {
 			require.Equal(t, tc.want, alternate(tc.s))
