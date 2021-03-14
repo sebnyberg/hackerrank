@@ -10,7 +10,7 @@ import (
 func TestGemstones(t *testing.T) {
 	for _, tc := range []struct {
 		arr  []string
-		want int
+		want int32
 	}{
 		{[]string{"abcdde", "baccd", "eeabg"}, 2},
 	} {
